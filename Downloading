@@ -17,6 +17,6 @@ dna.o             minion.h     slib.c    swan.o  table.o  trint.h
 #the executable files are the one without extension, I moved the reaper-15-065 directory to my folder of programs
 mv reaper-15-065 path/to/program/directory
 #to execute the executable file you have to write the path to executable file for instance:
-path/to/minion search-adapter path/to/inputfile
+path/to/minion search-adapter -i path/to/inputfile
 #Another option is to add the executable files to the $PATH (see path repository)
 
